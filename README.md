@@ -109,18 +109,19 @@ This allows stakeholders to explore delivery performance from multiple perspecti
 
 ## Dataset
 
-**Dataset:** DataCo Supply Chain Dataset
+Dataset Used: DataCo Supply Chain Dataset
 
-The dataset contains supply chain and logistics information including:
+Source:
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 
-- Orders
-- Products
-- Customers
-- Markets
-- Shipping Modes
-- Sales
-- Delivery Status
-- Delivery Delays
+Data Preparation:
+- Removed Customer Password
+- Removed Customer Email
+- Removed Customer Name fields
+- Removed Address fields
+- Removed Latitude and Longitude
+- Removed Product Image and Description
+- Performed data validation and cleaning before analysis
 
 
 ## Key Metrics Used
